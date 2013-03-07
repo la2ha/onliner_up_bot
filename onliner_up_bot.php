@@ -23,5 +23,6 @@ $curl->referer = $settings['my_items_url'];
 $curl->follow_redirects = false;
 foreach ($uppers as $upper)
     $response = $curl->get('http://baraholka.onliner.by' . $upper->href, $vars = array());
+unlink('curl/lib/curl_cookie.txt');
 
 

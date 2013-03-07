@@ -9,6 +9,6 @@
  */
 
 // Урл страницы со своими товарами, через которую можно поднимать объявления что то типа (http://baraholka.onliner.by/search.php?type=ufleamarket&id=202207) но ID другой будет
-$settings['my_items_url'] = 'http://baraholka.onliner.by/search.php?type=ufleamarket&id=202207';
+$settings['my_items_url'] = 'http://baraholka.onliner.by/search.php?type=ufleamarket&id=202207'; //@todo автоматом находить эту страницу
 $settings['username'] = '';
 $settings['password'] = '';
